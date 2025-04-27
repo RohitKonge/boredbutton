@@ -1,3 +1,21 @@
+# Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://boredbutton.com/sitemap.xml
+
+# Specify sitemap location
+Sitemap: https://boredbutton.fun/sitemap.xml
+
+# Optimize crawl rate
+Crawl-delay: 1
+
+# Important paths to ensure indexing
+Allow: /i-am-bored
+Allow: /activities
+Allow: /random-activities
+Allow: /blog
+Allow: /about
+
+# Prevent duplicate content
+Disallow: /api/
+Disallow: /*?*
+Disallow: /*?
