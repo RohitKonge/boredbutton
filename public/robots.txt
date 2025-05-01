@@ -14,6 +14,7 @@ Allow: /activities
 Allow: /random-activities
 Allow: /blog
 Allow: /about
+Allow: /sitemap.xml
 
 # Prevent duplicate content
 Disallow: /api/
