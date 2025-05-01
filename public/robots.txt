@@ -2,6 +2,8 @@
 User-agent: *
 Allow: /
 
+Allow: /sitemap.xml
+
 # Specify sitemap location
 Sitemap: https://boredbutton.fun/sitemap.xml
 
@@ -14,7 +16,7 @@ Allow: /activities
 Allow: /random-activities
 Allow: /blog
 Allow: /about
-Allow: /sitemap.xml
+
 
 # Prevent duplicate content
 Disallow: /api/
